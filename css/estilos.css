@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.btn{
+	padding-left: 60px ;
+	padding-right:60px; 
+}
+#usu{
+	color: goldenrod;
+	font-size: 15px;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #E07416;
+    border-color: #E07416;
+    font-size: 1.5em;
+}
+p{
+	color: darkgoldenrod;
+}
+a {
+	font-size: 1.5em;
+	color:silver;
+	text-decoration: none;
+}
+a:hover {
+	color:darkgoldenrod;
+	text-decoration: none;
+}
+#hora{
+	margin: 0;
+	font:monospace;
+	font-size: 15px;
+	margin-top: 0px; 
+	margin-bottom: 0px; 
+	float: right; 
+}
+span{
+	padding: 10px;
+	
+}
+section{
+	background-color: #ffffff;
+	height: 30%;
+	text-align:center;	
+	border-top: #0A3013 solid 5px;
+	border-bottom: #0A3013 solid 5px;
+	padding: 0px;
+}
+h3{
+	font-family: monospace;
+	font-size: 2rem;
+}
+body {
+	
+	font-family: "Calibri";
+}
+h1, h2{
+	text-align: center;
+}
+h2{
+	color: #aaa;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.logos {
+	border-radius: 25px;
+	border: 1px solid;
+}
+form{
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+}
+input{
+	width: 250px;;
+    padding: 1px;
+    margin: 5px 0 ;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 1.5em;
+}
+.campo:invalid {
+	border: 2px solid red;
+}
+.campo:valid {
+	border: 2px solid green;
+}
+.campo:invalid + span::after {
+	content: url('error.png');
+}
+.campo:valid + span::after {
+	content: url('bien.png');
+}
+.errormsj{
+	border: 2px solid red;
+	position: absolute;
+	width: 30%;
+	height: auto;
+	padding: 5px;
+	background-color: white;
+	border-radius: 7px;
+	left: 50%;
+	animation: resaltar 0.2s linear 6;	
+}
